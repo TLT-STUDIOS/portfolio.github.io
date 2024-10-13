@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Personal Page</title>
+</head>
+
+<body>
+  <!--top bar-->
+  <header>
+    <div class="container">
+      <nav>
+        <div id="logo">
+          <a href="#">
+            <img src="image.png" height="40px" width="40px" alt="logo">
+          </a>
+        </div>
+
+        <ul class="nav">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <!-- <li><a href="#portfolio">Portfolio</a></li> -->
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!--home page-->
+  <section class="home_bg" id="home">
+    <div class="overlay"></div>
+    <div class="container_table">
+      <div class="container_table_cell">
+        <h2>Hi, we are TLT Studios</h2>
+        <div class="social_icons">
+          <a href=""><i class="fa fa-github-alt" aria-hidden="true"></i></a>
+          <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about_me clearfix" id="about">
+    <div class="container">
+      <h2>About us</h2>
+      <div class="summary">
+        <div class="co_left">
+          <div class="avatar">
+            <img src="https://i.imgur.com/MZpmFwN.jpg" alt="avatar">
+          </div>
+        </div>
+        <div class="co_right">
+          <div class="personal_info">
+            <h3>Hello!</h3>
+            <p>Wir sind ein junges und dynamisches Team, das neue Herausforderungen mit Begeisterung annimmt und bei jedem Projekt mit voller Leidenschaft und Einsatz über die Erwartungen hinausgeht. 
+                Als kleine, aber hoch motivierte Gruppe widmen wir uns den Bereichen Frontend, Backend und Hardware, um gemeinsam innovative Lösungen zu schaffen und bestmögliche Ergebnisse zu erzielen.
+                "Erfolg besteht darin, dass man genau die Fähigkeiten hat, die im Moment gefragt sind." – Henry Ford
+            </p>
+          </div>
+          <div class="skill">
+            <ul>
+              <li>Html5 And Css3 - Web desing</li>
+              <li>Python und JavaScript - Backend</li>
+              <li>Alles was zu IoT gehört</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--what I offer-->
+  <section class="my_service clearfix" id="service">
+    <div class="container">
+      <h2>What we offer</h2>
+      <div class="service_items">
+        <div class="service_content">
+            <i class="fa fa-html5" aria-hidden="true"></i>
+                <h3>Webdesign und Entwicklung</h3>
+                <p>Sie haben die Vision, wir das technische Know-how, um sie zum Leben zu erwecken.</p>
+        </div>
+        <div class="service_content">
+            <i class="fa fa-css3" aria-hidden="true"></i>
+            <h3>Backend-Entwicklung</h3>
+            <p>Für Websites, die nicht nur gut aussehen, sondern auch leistungsstark und funktional sind.</p>
+        </div>
+        <div class="service_content">
+            <i class="fa fa-camera-retro" aria-hidden="true"></i>
+            <h3>IoT-Lösungen</h3>
+            <p>Von der Integration von Mikrocontrollern bis hin zur umfassenden Vernetzung – wir machen alles möglich.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Quotes-->
+  <section class="quotes">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="quote_inner">
+        <h3>let's work together!</h3>
+        <p>I am available for freelance progects</p>
+        <a href="#">get quotes</a>
+      </div>
+    </div>
+  </section>
+
+  <!--Latest Work
+  <section class="works" id="portfolio">
+    <div class="container">
+      <h2>latest work</h2>
+      <div class="work_items clearfix">
+        <div class="col_work">
+          <a href="https://i.imgur.com/r9YaqQb.jpg">
+            <img src="https://i.imgur.com/r9YaqQb.jpg" alt="portfolio-1">
+          </a>
+        </div>
+        <div class="col_work">
+          <a href="https://i.imgur.com/m6aYKA0.jpg">
+            <img src="https://i.imgur.com/m6aYKA0.jpg" alt="portfolio-2">
+          </a>
+        </div>
+        <div class="col_work">
+          <a href="https://i.imgur.com/p2fDpnS.jpg">
+            <img src="https://i.imgur.com/p2fDpnS.jpg" alt="portfolio-3">
+          </a>
+        </div>
+        <div class="col_work">
+          <a href="https://i.imgur.com/94H1YqP.jpg">
+            <img src="https://i.imgur.com/94H1YqP.jpg" alt="portfolio-4">
+          </a>
+        </div>
+        <div class="col_work">
+          <a href="https://i.imgur.com/fm5e86W.jpg">
+            <img src="https://i.imgur.com/fm5e86W.jpg" alt="portfolio-5">
+          </a>
+        </div>
+        <div class="col_work">
+          <a href="https://i.imgur.com/oO1FHQ9.jpg">
+            <img src="https://i.imgur.com/oO1FHQ9.jpg" alt="portfolio-6">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+-->
+  <!--Contact form-->
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2>get in touch</h2>
+      <div class="contact_form">
+        <form action="">
+          <div class="form_input">
+            <input type="text" name="name" class="form_style" placeholder="input your name" required>
+          </div>
+          <div class="form_input">
+            <input type="text" name="email" class="form_style" placeholder="enter your email" required>
+          </div>
+          <div class="form_input">
+            <textarea name="textarea" id="message" cols="30" rows="10" placeholder="write massage" required></textarea>
+          </div>
+          <div class="form_submit">
+            <input type="submit" name="submit" value="submit">
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!--Footer-->
+  <footer id="footer">
+    <div class="container">
+      <div class="footer-content">
+        <p>&copy; TLT-Studios 2024 | All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
