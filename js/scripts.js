@@ -44,10 +44,12 @@
 		
         $(window).load(function(){
             $(".typing").typed({
-                strings: ["We created Web Applications.", "We build IoT Projecs.", "We love new things."],
-                typeSpeed: 50
+                strings: ["We create Web Applications.", "We build IoT Projects.", "We love new things."],
+                typeSpeed: 40,
+                loop: true
             });
         });
+        
         $(window).stellar({
             responsive: true,
             horizontalScrolling: false,
